@@ -71,6 +71,9 @@ ZSH_THEME="agnoster"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+#source ~/dev/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+zstyle ':completion::complete:make:*:targets' call-command true
 
 # User configuration
 
