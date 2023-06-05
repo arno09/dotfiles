@@ -1,0 +1,31 @@
+[user]
+	name = Arnaud FAVREAU
+	email = arnaud.favreau@gmail.com
+[core]
+	fileMode = false
+	editor = vim
+[alias]
+	fsquash = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^' -
+	fixup = !sh -c 'git commit --fixup $@' -
+	autosquash = !sh -c 'GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $@' -
+	clean-gone-branches = ! git remote prune origin && git branch -v | grep disparue | cut -f3 -d ' ' | xargs -r git branch -D
+	current-branch = ! git branch 2> /dev/null | sed -e '/^[^*]/d' | cut -f2 -d' '
+	p = push
+	pu = ! git current-branch | xargs git push -u origin
+	pf = push --force-with-lease
+        ap = add -p
+	co = checkout
+	s = switch
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	reseth = reset --hard
+	wip = ! git add -A && git commit -m "wip"
+	amendit = commit --amend --no-edit
+	amend = commit --amend
+	fo = fetch origin
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
