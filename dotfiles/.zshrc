@@ -97,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias wtee="cd /home/arno/dev/expo"
-alias wtem="cd /home/arno/dev/memo"
+alias wke="cd ~/dev/expo"
+alias wkm="cd /home/arno/dev/memo"
 alias docker-clean="test -z '$(docker ps -aq)' || docker rm -fv $(docker ps -aq); echo '-- containers cleaned';  docker volume prune -f; echo '-- volume cleaned'; docker system prune -f; echo '--system cleaned'; echo '------- Docker cleaned --------'"
 
