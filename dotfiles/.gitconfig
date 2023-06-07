@@ -18,6 +18,7 @@
 	s = switch
 	br = branch
 	ci = commit
+	cim = commit -m 
 	st = status
 	unstage = reset HEAD --
 	reseth = reset --hard
