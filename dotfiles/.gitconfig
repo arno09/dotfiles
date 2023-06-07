@@ -25,6 +25,8 @@
 	amendit = commit --amend --no-edit
 	amend = commit --amend
 	fo = fetch origin
+	stashm = !sh -c 'git add . && git stash push -m $1' -
+	stasha = !sh -c 'git stash apply stash^{/$1}' -
 
 [credential "https://github.com"]
 	helper = 
