@@ -1,0 +1,360 @@
+alias mnessh-armentieres='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@armentieres.prod.exploit.naoned.fr'
+alias mnessh-aurillac='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@aurillac.prod.exploit.naoned.fr'
+alias mnessh-backup='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@backup.exploit.naoned.fr'
+alias mnessh-backup-media2='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@backup-media-2.exploit.naoned.fr'
+alias mnessh-backup-media3='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@backup-media-3.exploit.naoned.fr'
+alias mnessh-bergerac='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@bergerac.prod.exploit.naoned.fr'
+alias mnessh-bibliotheque-angers='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@Bibliotheque-angers.prod.exploit.naoned.fr'
+alias mnessh-bljd='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@bljd-portail.prod.exploit.naoned.fr'
+alias mnessh-cd18='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cd18.prod.exploit.naoned.fr'
+alias mnessh-cd19='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cd19.prod.exploit.naoned.fr'
+alias mnessh-cd34='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cd34.prod.exploit.naoned.fr'
+alias mnessh-cd73='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cd73.prod.exploit.naoned.fr'
+alias mnessh-cfdt='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cfdt.prod.exploit.naoned.fr'
+alias mnessh-cigpetitecouronne='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cigpetitecouronne.prod.exploit.naoned.fr'
+alias mnessh-cluses='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cluses.prod.exploit.naoned.fr'
+alias mnessh-cognac='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@cognac.prod.exploit.naoned.fr'
+alias mnessh-colmar='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@colmar.prod.exploit.naoned.fr'
+alias mnessh-colomiers='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@colomiers.prod.exploit.naoned.fr'
+alias mnessh-data-image='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@data-image.exploit.naoned.fr'
+alias mnessh-deauville='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@deauville.prod.exploit.naoned.fr'
+alias mnessh-dinard='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@dinard.prod.exploit.naoned.fr'
+alias mnessh-diocesedenantes='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@diocesedenantes.prod.exploit.naoned.fr'
+alias mnessh-dole='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@dole.prod.exploit.naoned.fr'
+alias mnessh-fdma44='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@fdma44.prod.exploit.naoned.fr'
+alias mnessh-fondationclement='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@fondationclement.prod.exploit.naoned.fr'
+alias mnessh-frac39='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@frac39.prod.exploit.naoned.fr'
+alias mnessh-ftp='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@ftp.exploit.naoned.fr'
+alias mnessh-galerieslafayette='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@galerieslafayette.prod.exploit.naoned.fr'
+alias mnessh-generiques='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@generiques.prod.exploit.naoned.fr'
+alias mnessh-help='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@help.prod.exploit.naoned.fr'
+alias mnessh-imec='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@imec.prod.exploit.naoned.fr'
+alias mnessh-inao-demo='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@inao.demo.exploit.naoned.fr'
+alias mnessh-inao-release='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@inao.release.exploit.naoned.fr'
+alias mnessh-inao-recette='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@inao.preprod.exploit.naoned.fr'
+alias mnessh-internal-naoned='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@internal.naoned.fr'
+alias mnessh-logelia='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@logelia.prod.exploit.naoned.fr'
+alias mnessh-mnessh-server='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@mnessh-server.exploit.naoned.fr'
+alias mnessh-mnessh-server-2='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@mnessh-server-2.exploit.naoned.fr'
+alias mnessh-museesdemarseille='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@museesdemarseille.prod.exploit.naoned.fr'
+alias mnessh-ofpra='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@ofpra.prod.exploit.naoned.fr'
+alias mnessh-orvault='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@orvault.prod.exploit.naoned.fr'
+alias mnessh-packager='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@packager.exploit.naoned.fr'
+alias mnessh-prox-sandbox='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@prox-sandbox.exploit.naoned.fr'
+alias mnessh-saintcloud='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@saintcloud.prod.exploit.naoned.fr'
+alias mnessh-saintgilles='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@saint-gilles.prod.exploit.naoned.fr'
+alias mnessh-saintlouis='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@saint-louis.prod.exploit.naoned.fr'
+alias mnessh-smtp='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@smtp.exploit.naoned.fr'
+alias mnessh-update='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@update.exploit.naoned.fr'
+alias mnessh-ush='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@ush.prod.exploit.naoned.fr'
+alias mnessh-vanao-deploy='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@deploy.exploit.naoned.fr'
+alias mnessh-vanao-preprod='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@vanao.preprod.exploit.naoned.fr'
+alias mnessh-vichy='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@vichy.prod.exploit.naoned.fr'
+alias mnessh-monitoring='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@zabbix.exploit.naoned.fr'
+alias mnessh-chassieu='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@chassieu.prod.exploit.naoned.fr'
+alias mnessh-moulins='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@moulins.prod.exploit.naoned.fr'
+alias mnessh-bethune='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@bethune.prod.exploit.naoned.fr'
+alias mnessh-ugap='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@ugap.prod.exploit.naoned.fr'
+alias mnessh-coutances='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@coutances.prod.exploit.naoned.fr'
+alias mnessh-backup-online-gra01='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@backup-online-gra01.exploit.naoned.fr'
+alias mnessh-saint-cyprien='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@saint-cyprien.prod.exploit.naoned.fr'
+alias mnessh-media='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@media.prod.exploit.naoned.fr'
+alias mnessh-hyp-online-01='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@hyp-online-01.exploit.naoned.fr'
+alias mnessh-hyp-online-02='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@hyp-online-02.exploit.naoned.fr'
+alias mnessh-hyp-online-03='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@hyp-online-03.exploit.naoned.fr'
+alias mnessh-hyp-online-internal-01='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@hyp-online-internal-01.exploit.naoned.fr'
+alias mnessh-backup-clients='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@backup.clients.prod.exploit.naoned.fr'
+alias mnessh-noumea='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@noumea.prod.exploit.naoned.fr'
+alias mnessh-graphana='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@graphana.exploit.naoned.fr'
+alias mnessh-petitquevilly='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@petitquevilly.prod.exploit.naoned.fr'
+alias mnessh-backup-ovh='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@backup-ovh.exploit.naoned.fr'
+alias mnessh-gonesse='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@gonesse.prod.exploit.naoned.fr'
+alias mnessh-agen='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@agen.prod.exploit.naoned.fr'
+alias mnessh-paysmellois='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@paysmellois.prod.exploit.naoned.fr'
+alias mnessh-pantin='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@pantin.prod.exploit.naoned.fr'
+alias mnessh-territoirevendomois='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@territoirevendomois.prod.exploit.naoned.fr'
+alias mnessh-13habitat='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@13habitat.prod.exploit.naoned.fr'
+alias mnessh-viry-chatillon='ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh -tt -oStrictHostKeyChecking=no -oBatchMode=yes -p 7022 afavreau@viry-chatillon.prod.exploit.naoned.fr'
+mnessh-deploy-pub-key() {
+	declare -A ssh_params_list=( ['mnessh-armentieres']='-p 7022 afavreau@armentieres.prod.exploit.naoned.fr' ['mnessh-aurillac']='-p 7022 afavreau@aurillac.prod.exploit.naoned.fr' ['mnessh-backup']='-p 7022 afavreau@backup.exploit.naoned.fr' ['mnessh-backup-media2']='-p 7022 afavreau@backup-media-2.exploit.naoned.fr' ['mnessh-backup-media3']='-p 7022 afavreau@backup-media-3.exploit.naoned.fr' ['mnessh-bergerac']='-p 7022 afavreau@bergerac.prod.exploit.naoned.fr' ['mnessh-bibliotheque-angers']='-p 7022 afavreau@Bibliotheque-angers.prod.exploit.naoned.fr' ['mnessh-bljd']='-p 7022 afavreau@bljd-portail.prod.exploit.naoned.fr' ['mnessh-cd18']='-p 7022 afavreau@cd18.prod.exploit.naoned.fr' ['mnessh-cd19']='-p 7022 afavreau@cd19.prod.exploit.naoned.fr' ['mnessh-cd34']='-p 7022 afavreau@cd34.prod.exploit.naoned.fr' ['mnessh-cd73']='-p 7022 afavreau@cd73.prod.exploit.naoned.fr' ['mnessh-cfdt']='-p 7022 afavreau@cfdt.prod.exploit.naoned.fr' ['mnessh-cigpetitecouronne']='-p 7022 afavreau@cigpetitecouronne.prod.exploit.naoned.fr' ['mnessh-cluses']='-p 7022 afavreau@cluses.prod.exploit.naoned.fr' ['mnessh-cognac']='-p 7022 afavreau@cognac.prod.exploit.naoned.fr' ['mnessh-colmar']='-p 7022 afavreau@colmar.prod.exploit.naoned.fr' ['mnessh-colomiers']='-p 7022 afavreau@colomiers.prod.exploit.naoned.fr' ['mnessh-data-image']='-p 7022 afavreau@data-image.exploit.naoned.fr' ['mnessh-deauville']='-p 7022 afavreau@deauville.prod.exploit.naoned.fr' ['mnessh-dinard']='-p 7022 afavreau@dinard.prod.exploit.naoned.fr' ['mnessh-diocesedenantes']='-p 7022 afavreau@diocesedenantes.prod.exploit.naoned.fr' ['mnessh-dole']='-p 7022 afavreau@dole.prod.exploit.naoned.fr' ['mnessh-fdma44']='-p 7022 afavreau@fdma44.prod.exploit.naoned.fr' ['mnessh-fondationclement']='-p 7022 afavreau@fondationclement.prod.exploit.naoned.fr' ['mnessh-frac39']='-p 7022 afavreau@frac39.prod.exploit.naoned.fr' ['mnessh-ftp']='-p 7022 afavreau@ftp.exploit.naoned.fr' ['mnessh-galerieslafayette']='-p 7022 afavreau@galerieslafayette.prod.exploit.naoned.fr' ['mnessh-generiques']='-p 7022 afavreau@generiques.prod.exploit.naoned.fr' ['mnessh-help']='-p 7022 afavreau@help.prod.exploit.naoned.fr' ['mnessh-imec']='-p 7022 afavreau@imec.prod.exploit.naoned.fr' ['mnessh-inao-demo']='-p 7022 afavreau@inao.demo.exploit.naoned.fr' ['mnessh-inao-release']='-p 7022 afavreau@inao.release.exploit.naoned.fr' ['mnessh-inao-recette']='-p 7022 afavreau@inao.preprod.exploit.naoned.fr' ['mnessh-internal-naoned']='-p 7022 afavreau@internal.naoned.fr' ['mnessh-logelia']='-p 7022 afavreau@logelia.prod.exploit.naoned.fr' ['mnessh-mnessh-server']='-p 7022 afavreau@mnessh-server.exploit.naoned.fr' ['mnessh-mnessh-server-2']='-p 7022 afavreau@mnessh-server-2.exploit.naoned.fr' ['mnessh-museesdemarseille']='-p 7022 afavreau@museesdemarseille.prod.exploit.naoned.fr' ['mnessh-ofpra']='-p 7022 afavreau@ofpra.prod.exploit.naoned.fr' ['mnessh-orvault']='-p 7022 afavreau@orvault.prod.exploit.naoned.fr' ['mnessh-packager']='-p 7022 afavreau@packager.exploit.naoned.fr' ['mnessh-prox-sandbox']='-p 7022 afavreau@prox-sandbox.exploit.naoned.fr' ['mnessh-saintcloud']='-p 7022 afavreau@saintcloud.prod.exploit.naoned.fr' ['mnessh-saintgilles']='-p 7022 afavreau@saint-gilles.prod.exploit.naoned.fr' ['mnessh-saintlouis']='-p 7022 afavreau@saint-louis.prod.exploit.naoned.fr' ['mnessh-smtp']='-p 7022 afavreau@smtp.exploit.naoned.fr' ['mnessh-update']='-p 7022 afavreau@update.exploit.naoned.fr' ['mnessh-ush']='-p 7022 afavreau@ush.prod.exploit.naoned.fr' ['mnessh-vanao-deploy']='-p 7022 afavreau@deploy.exploit.naoned.fr' ['mnessh-vanao-preprod']='-p 7022 afavreau@vanao.preprod.exploit.naoned.fr' ['mnessh-vichy']='-p 7022 afavreau@vichy.prod.exploit.naoned.fr' ['mnessh-monitoring']='-p 7022 afavreau@zabbix.exploit.naoned.fr' ['mnessh-chassieu']='-p 7022 afavreau@chassieu.prod.exploit.naoned.fr' ['mnessh-moulins']='-p 7022 afavreau@moulins.prod.exploit.naoned.fr' ['mnessh-bethune']='-p 7022 afavreau@bethune.prod.exploit.naoned.fr' ['mnessh-ugap']='-p 7022 afavreau@ugap.prod.exploit.naoned.fr' ['mnessh-coutances']='-p 7022 afavreau@coutances.prod.exploit.naoned.fr' ['mnessh-backup-online-gra01']='-p 7022 afavreau@backup-online-gra01.exploit.naoned.fr' ['mnessh-saint-cyprien']='-p 7022 afavreau@saint-cyprien.prod.exploit.naoned.fr' ['mnessh-media']='-p 7022 afavreau@media.prod.exploit.naoned.fr' ['mnessh-hyp-online-01']='-p 7022 afavreau@hyp-online-01.exploit.naoned.fr' ['mnessh-hyp-online-02']='-p 7022 afavreau@hyp-online-02.exploit.naoned.fr' ['mnessh-hyp-online-03']='-p 7022 afavreau@hyp-online-03.exploit.naoned.fr' ['mnessh-hyp-online-internal-01']='-p 7022 afavreau@hyp-online-internal-01.exploit.naoned.fr' ['mnessh-backup-clients']='-p 7022 afavreau@backup.clients.prod.exploit.naoned.fr' ['mnessh-noumea']='-p 7022 afavreau@noumea.prod.exploit.naoned.fr' ['mnessh-graphana']='-p 7022 afavreau@graphana.exploit.naoned.fr' ['mnessh-petitquevilly']='-p 7022 afavreau@petitquevilly.prod.exploit.naoned.fr' ['mnessh-backup-ovh']='-p 7022 afavreau@backup-ovh.exploit.naoned.fr' ['mnessh-gonesse']='-p 7022 afavreau@gonesse.prod.exploit.naoned.fr' ['mnessh-agen']='-p 7022 afavreau@agen.prod.exploit.naoned.fr' ['mnessh-paysmellois']='-p 7022 afavreau@paysmellois.prod.exploit.naoned.fr' ['mnessh-pantin']='-p 7022 afavreau@pantin.prod.exploit.naoned.fr' ['mnessh-territoirevendomois']='-p 7022 afavreau@territoirevendomois.prod.exploit.naoned.fr' ['mnessh-13habitat']='-p 7022 afavreau@13habitat.prod.exploit.naoned.fr' ['mnessh-viry-chatillon']='-p 7022 afavreau@viry-chatillon.prod.exploit.naoned.fr');
+	if [[ ! $# -eq 1 ]] ; then
+                echo "Usage:";
+               	echo "${FUNCNAME[0]} [mnessh-alias]";
+               	echo "Example:";
+               	echo "${FUNCNAME[0]} mnessh-vanao-preprod";
+               	return;
+        fi
+	ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr -tt ssh-copy-id ${ssh_params_list[$1]};
+  }
+_mnessh-deploy-pub-key() {
+	if [[ $COMP_CWORD -eq 1 ]] ; then
+        	local cur
+		local IFS='
+';
+        	COMPREPLY=()
+        	cur=${COMP_WORDS[COMP_CWORD]}
+        	COMPREPLY=( $( compgen -W '
+mnessh-armentieres 
+mnessh-aurillac 
+mnessh-backup 
+mnessh-backup-media2 
+mnessh-backup-media3 
+mnessh-bergerac 
+mnessh-bibliotheque-angers 
+mnessh-bljd 
+mnessh-cd18 
+mnessh-cd19 
+mnessh-cd34 
+mnessh-cd73 
+mnessh-cfdt 
+mnessh-cigpetitecouronne 
+mnessh-cluses 
+mnessh-cognac 
+mnessh-colmar 
+mnessh-colomiers 
+mnessh-data-image 
+mnessh-deauville 
+mnessh-dinard 
+mnessh-diocesedenantes 
+mnessh-dole 
+mnessh-fdma44 
+mnessh-fondationclement 
+mnessh-frac39 
+mnessh-ftp 
+mnessh-galerieslafayette 
+mnessh-generiques 
+mnessh-help 
+mnessh-imec 
+mnessh-inao-demo 
+mnessh-inao-release 
+mnessh-inao-recette 
+mnessh-internal-naoned 
+mnessh-logelia 
+mnessh-mnessh-server 
+mnessh-mnessh-server-2 
+mnessh-museesdemarseille 
+mnessh-ofpra 
+mnessh-orvault 
+mnessh-packager 
+mnessh-prox-sandbox 
+mnessh-saintcloud 
+mnessh-saintgilles 
+mnessh-saintlouis 
+mnessh-smtp 
+mnessh-update 
+mnessh-ush 
+mnessh-vanao-deploy 
+mnessh-vanao-preprod 
+mnessh-vichy 
+mnessh-monitoring 
+mnessh-chassieu 
+mnessh-moulins 
+mnessh-bethune 
+mnessh-ugap 
+mnessh-coutances 
+mnessh-backup-online-gra01 
+mnessh-saint-cyprien 
+mnessh-media 
+mnessh-hyp-online-01 
+mnessh-hyp-online-02 
+mnessh-hyp-online-03 
+mnessh-hyp-online-internal-01 
+mnessh-backup-clients 
+mnessh-noumea 
+mnessh-graphana 
+mnessh-petitquevilly 
+mnessh-backup-ovh 
+mnessh-gonesse 
+mnessh-agen 
+mnessh-paysmellois 
+mnessh-pantin 
+mnessh-territoirevendomois 
+mnessh-13habitat 
+mnessh-viry-chatillon ' -- $cur ) );
+        	return 0;
+  	fi
+	return 0;
+  }
+  complete -F _mnessh-deploy-pub-key -o nospace mnessh-deploy-pub-key
+mnessh-rsync() {
+	declare -A ssh_params_list=( ['mnessh-armentieres']='-p 7022 afavreau@armentieres.prod.exploit.naoned.fr' ['mnessh-aurillac']='-p 7022 afavreau@aurillac.prod.exploit.naoned.fr' ['mnessh-backup']='-p 7022 afavreau@backup.exploit.naoned.fr' ['mnessh-backup-media2']='-p 7022 afavreau@backup-media-2.exploit.naoned.fr' ['mnessh-backup-media3']='-p 7022 afavreau@backup-media-3.exploit.naoned.fr' ['mnessh-bergerac']='-p 7022 afavreau@bergerac.prod.exploit.naoned.fr' ['mnessh-bibliotheque-angers']='-p 7022 afavreau@Bibliotheque-angers.prod.exploit.naoned.fr' ['mnessh-bljd']='-p 7022 afavreau@bljd-portail.prod.exploit.naoned.fr' ['mnessh-cd18']='-p 7022 afavreau@cd18.prod.exploit.naoned.fr' ['mnessh-cd19']='-p 7022 afavreau@cd19.prod.exploit.naoned.fr' ['mnessh-cd34']='-p 7022 afavreau@cd34.prod.exploit.naoned.fr' ['mnessh-cd73']='-p 7022 afavreau@cd73.prod.exploit.naoned.fr' ['mnessh-cfdt']='-p 7022 afavreau@cfdt.prod.exploit.naoned.fr' ['mnessh-cigpetitecouronne']='-p 7022 afavreau@cigpetitecouronne.prod.exploit.naoned.fr' ['mnessh-cluses']='-p 7022 afavreau@cluses.prod.exploit.naoned.fr' ['mnessh-cognac']='-p 7022 afavreau@cognac.prod.exploit.naoned.fr' ['mnessh-colmar']='-p 7022 afavreau@colmar.prod.exploit.naoned.fr' ['mnessh-colomiers']='-p 7022 afavreau@colomiers.prod.exploit.naoned.fr' ['mnessh-data-image']='-p 7022 afavreau@data-image.exploit.naoned.fr' ['mnessh-deauville']='-p 7022 afavreau@deauville.prod.exploit.naoned.fr' ['mnessh-dinard']='-p 7022 afavreau@dinard.prod.exploit.naoned.fr' ['mnessh-diocesedenantes']='-p 7022 afavreau@diocesedenantes.prod.exploit.naoned.fr' ['mnessh-dole']='-p 7022 afavreau@dole.prod.exploit.naoned.fr' ['mnessh-fdma44']='-p 7022 afavreau@fdma44.prod.exploit.naoned.fr' ['mnessh-fondationclement']='-p 7022 afavreau@fondationclement.prod.exploit.naoned.fr' ['mnessh-frac39']='-p 7022 afavreau@frac39.prod.exploit.naoned.fr' ['mnessh-ftp']='-p 7022 afavreau@ftp.exploit.naoned.fr' ['mnessh-galerieslafayette']='-p 7022 afavreau@galerieslafayette.prod.exploit.naoned.fr' ['mnessh-generiques']='-p 7022 afavreau@generiques.prod.exploit.naoned.fr' ['mnessh-help']='-p 7022 afavreau@help.prod.exploit.naoned.fr' ['mnessh-imec']='-p 7022 afavreau@imec.prod.exploit.naoned.fr' ['mnessh-inao-demo']='-p 7022 afavreau@inao.demo.exploit.naoned.fr' ['mnessh-inao-release']='-p 7022 afavreau@inao.release.exploit.naoned.fr' ['mnessh-inao-recette']='-p 7022 afavreau@inao.preprod.exploit.naoned.fr' ['mnessh-internal-naoned']='-p 7022 afavreau@internal.naoned.fr' ['mnessh-logelia']='-p 7022 afavreau@logelia.prod.exploit.naoned.fr' ['mnessh-mnessh-server']='-p 7022 afavreau@mnessh-server.exploit.naoned.fr' ['mnessh-mnessh-server-2']='-p 7022 afavreau@mnessh-server-2.exploit.naoned.fr' ['mnessh-museesdemarseille']='-p 7022 afavreau@museesdemarseille.prod.exploit.naoned.fr' ['mnessh-ofpra']='-p 7022 afavreau@ofpra.prod.exploit.naoned.fr' ['mnessh-orvault']='-p 7022 afavreau@orvault.prod.exploit.naoned.fr' ['mnessh-packager']='-p 7022 afavreau@packager.exploit.naoned.fr' ['mnessh-prox-sandbox']='-p 7022 afavreau@prox-sandbox.exploit.naoned.fr' ['mnessh-saintcloud']='-p 7022 afavreau@saintcloud.prod.exploit.naoned.fr' ['mnessh-saintgilles']='-p 7022 afavreau@saint-gilles.prod.exploit.naoned.fr' ['mnessh-saintlouis']='-p 7022 afavreau@saint-louis.prod.exploit.naoned.fr' ['mnessh-smtp']='-p 7022 afavreau@smtp.exploit.naoned.fr' ['mnessh-update']='-p 7022 afavreau@update.exploit.naoned.fr' ['mnessh-ush']='-p 7022 afavreau@ush.prod.exploit.naoned.fr' ['mnessh-vanao-deploy']='-p 7022 afavreau@deploy.exploit.naoned.fr' ['mnessh-vanao-preprod']='-p 7022 afavreau@vanao.preprod.exploit.naoned.fr' ['mnessh-vichy']='-p 7022 afavreau@vichy.prod.exploit.naoned.fr' ['mnessh-monitoring']='-p 7022 afavreau@zabbix.exploit.naoned.fr' ['mnessh-chassieu']='-p 7022 afavreau@chassieu.prod.exploit.naoned.fr' ['mnessh-moulins']='-p 7022 afavreau@moulins.prod.exploit.naoned.fr' ['mnessh-bethune']='-p 7022 afavreau@bethune.prod.exploit.naoned.fr' ['mnessh-ugap']='-p 7022 afavreau@ugap.prod.exploit.naoned.fr' ['mnessh-coutances']='-p 7022 afavreau@coutances.prod.exploit.naoned.fr' ['mnessh-backup-online-gra01']='-p 7022 afavreau@backup-online-gra01.exploit.naoned.fr' ['mnessh-saint-cyprien']='-p 7022 afavreau@saint-cyprien.prod.exploit.naoned.fr' ['mnessh-media']='-p 7022 afavreau@media.prod.exploit.naoned.fr' ['mnessh-hyp-online-01']='-p 7022 afavreau@hyp-online-01.exploit.naoned.fr' ['mnessh-hyp-online-02']='-p 7022 afavreau@hyp-online-02.exploit.naoned.fr' ['mnessh-hyp-online-03']='-p 7022 afavreau@hyp-online-03.exploit.naoned.fr' ['mnessh-hyp-online-internal-01']='-p 7022 afavreau@hyp-online-internal-01.exploit.naoned.fr' ['mnessh-backup-clients']='-p 7022 afavreau@backup.clients.prod.exploit.naoned.fr' ['mnessh-noumea']='-p 7022 afavreau@noumea.prod.exploit.naoned.fr' ['mnessh-graphana']='-p 7022 afavreau@graphana.exploit.naoned.fr' ['mnessh-petitquevilly']='-p 7022 afavreau@petitquevilly.prod.exploit.naoned.fr' ['mnessh-backup-ovh']='-p 7022 afavreau@backup-ovh.exploit.naoned.fr' ['mnessh-gonesse']='-p 7022 afavreau@gonesse.prod.exploit.naoned.fr' ['mnessh-agen']='-p 7022 afavreau@agen.prod.exploit.naoned.fr' ['mnessh-paysmellois']='-p 7022 afavreau@paysmellois.prod.exploit.naoned.fr' ['mnessh-pantin']='-p 7022 afavreau@pantin.prod.exploit.naoned.fr' ['mnessh-territoirevendomois']='-p 7022 afavreau@territoirevendomois.prod.exploit.naoned.fr' ['mnessh-13habitat']='-p 7022 afavreau@13habitat.prod.exploit.naoned.fr' ['mnessh-viry-chatillon']='-p 7022 afavreau@viry-chatillon.prod.exploit.naoned.fr');
+	if [[ $# -eq 0 ]] ; then
+                echo "Usage:";
+               	echo "${FUNCNAME[0]} [mnessh-alias] [rsync params]";
+               	echo "Example:";
+               	echo "${FUNCNAME[0]} mnessh-vanao-preprod :/tmp/dump.sql /tmp -v";
+               	return;
+        fi
+	rsync -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/astreinte -p 7022 afavreau@mnessh-server.exploit.naoned.fr ssh ${ssh_params_list[$1]}" "${@:2}";
+  }
+#Copy from rsync autocompletion _rsync()
+_rsync-copy () 
+{ 
+    local cur prev words cword split;
+    _init_completion -s -n : || return;
+    _expand || return 0;
+    case $prev in 
+        --config | --password-file | --include-from | --exclude-from | --files-from | --log-file | --write-batch | --only-write-batch | --read-batch)
+            compopt +o nospace;
+            _filedir;
+            return 0
+        ;;
+        -T | --temp-dir | --compare-dest | --backup-dir | --partial-dir | --copy-dest | --link-dest)
+            compopt +o nospace;
+            _filedir -d;
+            return 0
+        ;;
+        -e | --rsh)
+            compopt +o nospace;
+            COMPREPLY=($( compgen -W 'rsh ssh' -- "$cur" ));
+            return 0
+        ;;
+        --compress-level)
+            compopt +o nospace;
+            COMPREPLY=($( compgen -W '{1..9}' -- "$cur" ));
+            return 0
+        ;;
+    esac;
+    $split && return 0;
+    case $cur in 
+        -*)
+            COMPREPLY=($( compgen -W '--verbose --quiet --no-motd --checksum
+                --archive --recursive --relative --no-implied-dirs
+                --backup --backup-dir= --suffix= --update --inplace --append
+                --append-verify --dirs --old-dirs --links --copy-links
+                --copy-unsafe-links --safe-links --copy-dirlinks
+                --keep-dirlinks --hard-links --perms --executability --chmod=
+                --acls --xattrs --owner --group --devices --copy-devices
+                --specials --times --omit-dir-times --super --fake-super
+                --sparse --dry-run --whole-file --no-whole-file
+                --one-file-system --block-size= --rsh= --rsync-path=
+                --existing --ignore-existing --remove-source-files --delete
+                --delete-before --delete-during --delete-delay --delete-after
+                --delete-excluded --ignore-errors --force --max-delete=
+                --max-size= --min-size= --partial --partial-dir=
+                --delay-updates --prune-empty-dirs --numeric-ids --timeout=
+                --contimeout= --ignore-times --size-only --modify-window=
+                --temp-dir= --fuzzy --compare-dest= --copy-dest= --link-dest=
+                --compress --compress-level= --skip-compress= --cvs-exclude
+                --filter= --exclude= --exclude-from= --include= --include-from=
+                --files-from= --from0 --protect-args --address= --port=
+                --sockopts= --blocking-io --no-blocking-io --stats
+                --8-bit-output --human-readable --progress --itemize-changes
+                --out-format= --log-file= --log-file-format= --password-file=
+                --list-only --bwlimit= --write-batch= --only-write-batch=
+                --read-batch= --protocol= --iconv= --ipv4 --ipv6 --version
+                --help --daemon --config= --no-detach' -- "$cur" ));
+            [[ $COMPREPLY == *= ]] || compopt +o nospace
+        ;;
+        *:*)
+            local i shell=ssh;
+            for ((i=1; i < cword; i++ ))
+            do
+                if [[ "${words[i]}" == -@(e|-rsh) ]]; then
+                    shell=${words[i+1]};
+                    break;
+                fi;
+            done;
+            [[ $shell == ssh ]] && _xfunc ssh _scp_remote_files
+        ;;
+        *)
+            _known_hosts_real -c -a "$cur";
+            _xfunc ssh _scp_local_files
+        ;;
+    esac;
+    return 0
+}
+
+_mnessh-rsync() {
+	if [[ $COMP_CWORD -eq 1 ]] ; then
+        	local cur
+		local IFS='
+';
+        	COMPREPLY=()
+        	cur=${COMP_WORDS[COMP_CWORD]}
+        	COMPREPLY=( $( compgen -W '
+mnessh-armentieres 
+mnessh-aurillac 
+mnessh-backup 
+mnessh-backup-media2 
+mnessh-backup-media3 
+mnessh-bergerac 
+mnessh-bibliotheque-angers 
+mnessh-bljd 
+mnessh-cd18 
+mnessh-cd19 
+mnessh-cd34 
+mnessh-cd73 
+mnessh-cfdt 
+mnessh-cigpetitecouronne 
+mnessh-cluses 
+mnessh-cognac 
+mnessh-colmar 
+mnessh-colomiers 
+mnessh-data-image 
+mnessh-deauville 
+mnessh-dinard 
+mnessh-diocesedenantes 
+mnessh-dole 
+mnessh-fdma44 
+mnessh-fondationclement 
+mnessh-frac39 
+mnessh-ftp 
+mnessh-galerieslafayette 
+mnessh-generiques 
+mnessh-help 
+mnessh-imec 
+mnessh-inao-demo 
+mnessh-inao-release 
+mnessh-inao-recette 
+mnessh-internal-naoned 
+mnessh-logelia 
+mnessh-mnessh-server 
+mnessh-mnessh-server-2 
+mnessh-museesdemarseille 
+mnessh-ofpra 
+mnessh-orvault 
+mnessh-packager 
+mnessh-prox-sandbox 
+mnessh-saintcloud 
+mnessh-saintgilles 
+mnessh-saintlouis 
+mnessh-smtp 
+mnessh-update 
+mnessh-ush 
+mnessh-vanao-deploy 
+mnessh-vanao-preprod 
+mnessh-vichy 
+mnessh-monitoring 
+mnessh-chassieu 
+mnessh-moulins 
+mnessh-bethune 
+mnessh-ugap 
+mnessh-coutances 
+mnessh-backup-online-gra01 
+mnessh-saint-cyprien 
+mnessh-media 
+mnessh-hyp-online-01 
+mnessh-hyp-online-02 
+mnessh-hyp-online-03 
+mnessh-hyp-online-internal-01 
+mnessh-backup-clients 
+mnessh-noumea 
+mnessh-graphana 
+mnessh-petitquevilly 
+mnessh-backup-ovh 
+mnessh-gonesse 
+mnessh-agen 
+mnessh-paysmellois 
+mnessh-pantin 
+mnessh-territoirevendomois 
+mnessh-13habitat 
+mnessh-viry-chatillon ' -- $cur ) );
+        	return 0;
+  	fi
+
+	_rsync-copy;
+	
+	return 0;
+  }
+  complete -F _mnessh-rsync -o nospace mnessh-rsync

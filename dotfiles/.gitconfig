@@ -21,13 +21,18 @@
 	cim = commit -m 
 	st = status
 	unstage = reset HEAD --
-	reseth = reset --hard
+	reseth = reset --hard '@{u}'
 	wip = ! git add -A && git commit -m "wip"
 	amendit = commit --amend --no-edit
 	amend = commit --amend
 	fo = fetch origin
 	stashm = !sh -c 'git add . && git stash push -m $1' -
 	stasha = !sh -c 'git stash apply stash^{/$1}' -
+	ra = ! git clean -df && git restore .
+	rb = checkout .
+	rbf = checkout -- 
+	wdiff = diff -w --word-diff=color --ignore-space-at-eol
+	structure = log --oneline --simplify-by-decoration --graph --all
 
 [credential "https://github.com"]
 	helper = 

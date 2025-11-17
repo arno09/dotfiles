@@ -89,6 +89,8 @@ zstyle ':completion::complete:make:*:targets' call-command true
 #   export EDITOR='mvim'
 # fi
 
+export VISUAL="vim"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -103,4 +105,7 @@ zstyle ':completion::complete:make:*:targets' call-command true
 alias wke="cd ~/dev/expo"
 alias wkm="cd /home/arno/dev/memo"
 alias docker-clean="test -z '$(docker ps -aq)' || docker rm -fv $(docker ps -aq); echo '-- containers cleaned';  docker volume prune -f; echo '-- volume cleaned'; docker system prune -f; echo '--system cleaned'; echo '------- Docker cleaned --------'"
-
+alias pandora="ssh -o "IdentitiesOnly=yes" -i ~/.ssh/astreinte afavreau@pandora.naoned.fr -p 7022"
+if [ -f ~/.bash_aliases_mnessh ]; then
+    . ~/.bash_aliases_mnessh
+fi
